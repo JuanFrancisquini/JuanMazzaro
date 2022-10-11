@@ -36,9 +36,15 @@
 html, body{
     height: 100vh;
     width: 100vw;
+    background: #040F2B;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 header{
+    position: fixed top;
     background: linear-gradient(180deg, #4C5367, #040F2B);
     color: aliceblue;
     text-align: center;
@@ -52,11 +58,14 @@ header > h1{
 
 header > p{
     padding-top: 10px;
+    color: lightskyblue;
 }
 
 menu{
+    display: none;
     text-align: center;
     background: var(--cor4);
+    transition-duration: 1s;
 }
 
 menu a{
@@ -79,15 +88,27 @@ span#hamburguer{
     text-align: center;
 }
 
+span#hamburguer{
+    cursor: pointer;
+}
+
+main{
+    display: block;
+    background: white;
+    margin: auto;
+    max-width: 800px;
+    height: 77.5vh;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 footer{
-    position: fixed;
+    position: fixed bottom;
     width: 100vw;
     background: linear-gradient(180deg, #4C5367, #040F2B);
     color: aliceblue;
     text-align: center;
-    font-size: .8em;
-    padding: 2px 0px;
-    top: 98.8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: .7em;
+    padding: 1px 0px;
 }
