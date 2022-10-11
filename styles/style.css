@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'gemunu';
+    src: url(../font/GemunuLibre-Regular.ttf) format('truetype');
+    src: url(../font/GemunuLibre-Light.ttf) format('truetype');
+    src: url(../font/GemunuLibre-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'tourney';
+    src: url(../font/Tourney-Regular.ttf) format('truetype');
+    src: url(../font/Tourney-Light.ttf) format('truetype');
+    src: url(../font/Tourney-ExtraBold.ttf) format('truetype');
+}
+
+:root{
+    --cor0: #222D4A;	/* Main Primary color */
+    --cor1: #4C5367;
+    --cor2: #323848;
+    --cor4: #040F2B;
+    --cor3: #111E42;
+
+    --font-padrao: 'gemunu', sans-serif;
+    --font-destaque: 'tourney', sans-serif;
+}
+
+/*    Mobile First    */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-padrao);
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background: linear-gradient(180deg, #4C5367, #040F2B);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header > h1{
+    font-family: var(--font-destaque);
+    font-size: 3em;
+}
+
+header > p{
+    padding-top: 10px;
+}
+
+menu{
+    text-align: center;
+    background: var(--cor4);
+}
+
+menu a{
+    display: inline-block;
+    width: 100vw;
+    color: aliceblue;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+menu a:hover{
+    background: var(--cor2);
+    transition-duration: .2s;
+    color: lightskyblue;
+}
+
+span#hamburguer{
+    display: block;
+    background: #222D4A;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    width: 100vw;
+    background: linear-gradient(180deg, #4C5367, #040F2B);
+    color: aliceblue;
+    text-align: center;
+    font-size: .8em;
+    padding: 2px 0px;
+    top: 98.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
