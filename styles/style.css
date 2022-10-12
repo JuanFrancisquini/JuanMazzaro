@@ -104,6 +104,22 @@ main{
     box-shadow: 2px 2px 2px black;
 }
 
+main > div {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+main > div > a {
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+main > div > a:hover {
+    color: var(--cor1);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 footer{
     position: fixed bottom;
     width: 100vw;
