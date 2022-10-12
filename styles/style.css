@@ -31,6 +31,7 @@
     padding: 0px;
     margin: 0px;
     font-family: var(--font-padrao);
+    box-sizing: border-box;
 }
 
 html, body{
@@ -54,6 +55,8 @@ header{
 header > h1{
     font-family: var(--font-destaque);
     font-size: 3em;
+    width: max-content;
+    margin: auto;
 }
 
 header > p{

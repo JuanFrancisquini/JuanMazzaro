@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*  Animação do título  */
+.line{
+    border-right: 4px solid #ffffffc4;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: cursor .5s infinite normal, typing 1s normal steps(12) both;
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: #ffffffc4;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+@keyframes typing {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 352px;
+    }
+}
