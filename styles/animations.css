@@ -28,3 +28,19 @@
         width: 352px;
     }
 }
+
+#hamburguer{
+    color: white;
+    animation: span-color 3s infinite alternate-reverse;
+}
+
+@keyframes span-color{
+    from {
+        color: white;
+    }
+
+    to {
+        color: black;
+    }
+}
+
