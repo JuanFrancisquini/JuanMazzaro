@@ -31,16 +31,16 @@
 
 #hamburguer{
     color: white;
-    animation: span-color 3s infinite alternate-reverse;
+    animation: span-color 3s normal;
 }
 
 @keyframes span-color{
     from {
-        color: white;
+        color: black;
     }
 
     to {
-        color: black;
+        color: white;
     }
 }
 

@@ -13,4 +13,3 @@ function me(elemento){
 
 const texto = document.querySelector('h1');
 me(texto)
-
