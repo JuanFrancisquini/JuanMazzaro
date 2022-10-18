@@ -104,20 +104,40 @@ main{
     box-shadow: 2px 2px 2px black;
 }
 
-main > div {
-    padding-top: 10px;
-    padding-left: 10px;
+div.conteudo{
+    position: relative;
+    height: 334px;
+    width: 100%;
 }
 
-main > div > a {
-    color: var(--cor3);
-    text-decoration: none;
+div.introducao{
+    display: inline-block;
+    position: absolute;
+    background-color: #4c53673a;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: justify;
+    width: 348px;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-main > div > a:hover {
-    color: var(--cor1);
-    font-weight: bolder;
-    text-decoration: underline;
+div.img{
+    display: inline-block;
+    position: absolute;
+    width: max-content;
+    margin-top: 10px;
+    height: 180px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+div > img{
+    height: 100%;
+    border-bottom-left-radius: 38%;
 }
 
 footer{
