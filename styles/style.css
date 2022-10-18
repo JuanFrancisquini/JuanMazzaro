@@ -106,8 +106,19 @@ main{
 
 div.conteudo{
     position: relative;
-    height: 334px;
+    height: 426px;
     width: 100%;
+}
+
+div.img{
+    display: inline-block;
+    position: absolute;
+    width: max-content;
+    margin-top: 10px;
+    height: 300px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 div.introducao{
@@ -119,18 +130,7 @@ div.introducao{
     margin-top: 5px;
     text-align: justify;
     width: 348px;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-div.img{
-    display: inline-block;
-    position: absolute;
-    width: max-content;
-    margin-top: 10px;
-    height: 180px;
-    top: 0;
+    top: 73%;
     left: 50%;
     transform: translate(-50%);
 }
