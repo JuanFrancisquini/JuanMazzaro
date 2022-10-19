@@ -172,8 +172,6 @@ div.botoes div{
 }
 
 .botaog:hover{
-    transition-duration: 2s;
-    transition-timing-function: ease;
     background: linear-gradient(to bottom, #4c536729,black);
 }
 
@@ -182,8 +180,6 @@ div.botoes div{
 }
 
 .botaol:hover{
-    transition-duration: 2s;
-    transition-timing-function: ease;
     background: linear-gradient(to bottom, #4c536729,black);
 }
 
