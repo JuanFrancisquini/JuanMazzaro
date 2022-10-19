@@ -106,7 +106,7 @@ main{
 
 div.conteudo{
     position: relative;
-    height: 476px;
+    height: 100%;
     width: 100%;
 }
 
@@ -126,19 +126,77 @@ div.introducao{
     position: absolute;
     background-color: #4c53673a;
     border-radius: 10px;
+    border: 2px solid #040F2B;
     padding: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: justify;
     width: 348px;
-    top: 76%;
+    top: 75%;
     left: 50%;
-    transform: translate(-50%);
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.378);
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.208);
 }
 
 div > img{
     height: 100%;
     border-bottom-left-radius: 38%;
+}
+
+.botoes{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.botoes div{
+    width: 110px;
+    height: max-content;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding-bottom: 3px;
+    position: absolute;
+    border: 2px solid #040F2B;
+    background: linear-gradient(to bottom, transparent, #040F2B);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.208);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.botaog{
+    left: 25%;
+}
+
+.botaog:hover{
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    background: linear-gradient(to bottom, #4c536729,black);
+}
+
+.botaol{
+    left: 75%;
+}
+
+.botaol:hover{
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    background: linear-gradient(to bottom, #4c536729,black);
+}
+
+div.botaog > img{
+    width: 20px;
+    margin-right: 6px;
+    transform: translate(0%, 15%);
+}
+
+div.botaol > img{
+    width: 20px;
+    margin-right: 6px;
+    transform: translate(0%, 15%);
 }
 
 footer{
