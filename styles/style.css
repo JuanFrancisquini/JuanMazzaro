@@ -167,7 +167,8 @@ div.botoes div{
     height: max-content;
     font-size: 1.1em;
     border-radius: 10px;
-    padding-bottom: 3px;
+    padding: 2px;
+    padding-bottom: 5px;
     position: absolute;
     border: 2px solid #040F2B;
     background: linear-gradient(to bottom, transparent, #040F2B);
@@ -182,25 +183,15 @@ div.botoes div{
     left: 25%;
 }
 
-.botaog:hover{
-    background: linear-gradient(to bottom, #4c536729,black);
-}
-
 .botaol{
     left: 75%;
 }
 
-.botaol:hover{
+.botaog:hover, .botaol:hover {
     background: linear-gradient(to bottom, #4c536729,black);
 }
 
-div.botaog > img{
-    width: 20px;
-    margin-right: 6px;
-    transform: translate(0%, 15%);
-}
-
-div.botaol > img{
+div.botaog > img, div.botaol > img {
     width: 20px;
     margin-right: 6px;
     transform: translate(0%, 15%);
