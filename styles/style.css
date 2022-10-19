@@ -209,6 +209,7 @@ div.botaol > img{
 footer{
     position: fixed bottom;
     width: 100vw;
+    height: 12px;
     background: linear-gradient(180deg, #4C5367, #040F2B);
     color: aliceblue;
     text-align: center;
