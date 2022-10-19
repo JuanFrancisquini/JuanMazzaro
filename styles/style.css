@@ -111,7 +111,7 @@ div.conteudo{
 }
 
 div.img{
-    display: inline-block;
+    display: block;
     position: absolute;
     width: max-content;
     margin-top: 10px;
@@ -122,13 +122,13 @@ div.img{
 }
 
 div.introducao{
-    display: inline-block;
+    display: block;
     position: absolute;
     background-color: #4c53673a;
     border-radius: 10px;
     border: 2px solid #040F2B;
     padding: 15px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: justify;
     width: 348px;
     top: 75%;
@@ -146,7 +146,7 @@ div > img{
     position: absolute;
     width: 300px;
     height: 40px;
-    top: 95%;
+    top: 94.8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
