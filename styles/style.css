@@ -107,7 +107,7 @@ main{
     display: block;
     background: white;
     margin: auto;
-    max-width: 800px;
+    max-width: 500px;
     height: 582.8px;
     margin-bottom: 5px;
     border-bottom-left-radius: 10px;
@@ -199,12 +199,15 @@ div.botaog > img, div.botaol > img {
 }
 
 footer{
-    position: fixed bottom;
+    display: block;
+    position: absolute;
+    bottom: 0%;
     width: 100vw;
-    height: 12px;
+    height: max-content;
     background: linear-gradient(180deg, #4C5367, #040F2B);
     color: aliceblue;
     text-align: center;
     font-size: .7em;
-    padding: 1px 0px;
+    padding: 2px 0px;
+    padding-bottom: 4px;
 }

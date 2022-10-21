@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+main {
+    height: 450px;
+    max-width: 500px;
+}
+
+.botoes{
+    position: relative;
+    top: 7%;
+    left: 50%;
+}
+
+.b {
+    top: 9%;
+    left: 50%;
+}
+
+main iframe {
+    position: relative;
+    display: block;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%);
+}
