@@ -192,9 +192,15 @@ div.botoes div{
     background: linear-gradient(to bottom, #4c536729,black);
 }
 
-div.botaog > img, div.botaol > img {
+div.botaog > img {
     width: 20px;
     margin-right: 6px;
+    transform: translate(0%, 15%);
+}
+
+div.botaol > img {
+    width: 20px;
+    margin-right: 5px;
     transform: translate(0%, 15%);
 }
 

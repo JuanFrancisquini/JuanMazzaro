@@ -3,11 +3,12 @@
 main {
     height: 450px;
     max-width: 500px;
+    box-shadow: 2px 2px 4px #ffffff6d;
 }
 
 .botoes{
     position: relative;
-    top: 7%;
+    top: 8%;
     left: 50%;
 }
 
@@ -19,7 +20,9 @@ main {
 main iframe {
     position: relative;
     display: block;
+    border-radius: 20px;
     top: 9%;
     left: 50%;
+    box-shadow: 2px 2px 4px #00000047;
     transform: translate(-50%);
 }
